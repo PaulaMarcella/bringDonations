@@ -109,7 +109,7 @@ const Navigation = props => {
             src={bringLogoLeaf}
             width="70"
             className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            alt="bring leaf logo"
           />
         </Navbar.Brand>
         {(!props.user && (

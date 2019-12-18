@@ -6,11 +6,11 @@ export default ({ timeout, maximumAge = 5 * 60 * 1000 } = {}) =>
   getCurrentPosition({
     maximumAge,
     timeout
-  }).then(({ coords: { latitude, longitude }, timestamp }) =>
+  }).then(({ coords: { longitude, latitude }, timestamp }) =>
     Promise.resolve({
       coordinates: {
-        latitude,
-        longitude
+        longitude,
+        latitude
       },
       timestamp
     })

@@ -19,7 +19,7 @@ export default class List extends Component {
         latitude: 38.7107145,
         longitude: -9.1529484
       },
-      location: { latitude: 38.7107145, longitude: -9.1529484 }
+      location: { longitude: -9.1529484, latitude: 38.7107145 }
     };
     this.currentLocationClickedMethod = this.currentLocationClickedMethod.bind(
       this
